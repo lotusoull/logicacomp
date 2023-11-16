@@ -16,8 +16,8 @@
     <script>
         document.getElementById ("meuBotao").addEventListener("click",
         function(){
-            let nome = document.getElementById("nome")  
-            document.getElementById("minhaMensagem").innerHTML = "Olá," + "nome" + "!"
+            let nome = document.getElementById("nome").value;
+            document.getElementById("minhaMensagem").innerHTML = `Olá, ${nome}!`; 
         }
         )
     </script>
